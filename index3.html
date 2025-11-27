@@ -1,0 +1,658 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.min.js" integrity="sha384-G/EV+4j2dNv+tEPo3++6LCgdCROaejBqfUeNjuKAiuXbjrxilcCdDz6ZAVfHWe1Y" crossorigin="anonymous"></script>
+
+    <title>Document</title>
+</head>
+<body>
+    <header class=" bg-light  border-bottom border-1 border-secondary-alt mx-auto text-center sticky-top">
+        <div class="container text-center"> <img class=" img mx-auto " src="IMG/logo-toledo-3-culturas-300.png" alt="toledo"></div>
+        <nav>
+        <div class="btn-group mx-auto text-center btn-group gap-2 ">
+            <button class="btn text-warning">Inicio</button>
+            <button class="btn text-danger">Quiénes somos</button>
+            <div class="dropdown">
+                <button class="btn text-danger dropdown-toggle" data-bs-toggle="dropdown">Nuestras rutas por Toledo</button>
+                <div class="dropdown-menu menu1 p-3 ">
+                    <div class="container">
+                        <div class="row gap-2">
+                        <div class="col border-1 border-bottom">
+                            <button class="btn  text-danger  text-start fw-bold">
+                                Vida en la judería de Toledo
+                            </button>
+                        </div> 
+                        <div class="col border-1 border-bottom">
+                            <button class="btn  text-danger  text-start fw-bold">
+                                Los mejores miradores de Toledo
+                            </button>
+                        </div>
+                        <div class="col border-1 border-bottom">
+                            <button class="btn  text-danger text-start fw-bold">
+                                El mudéjar toledano
+                            </button>
+                        </div>
+                        <div class="col border-1 border-bottom">
+                            <button class="btn  text-danger  text-start fw-bold">
+                                Toledo en guerra
+                            </button>
+                        </div>
+                    </div>
+                    <div class="row gap-2 mt-1">
+                        <div class="col border-1 border-bottom">
+                            <button class="btn  text-danger  text-start fw-bold">
+                                RUTA NOCHE TOLEDANA
+                            </button>
+                        </div>
+                        <div class="col border-1 border-bottom">
+                            <button class="btn  text-danger  text-start fw-bold">
+                                Ruta Pulsera Turística de Toledo
+                            </button>
+                        </div>
+                        <div class="col border-1 border-bottom">
+                            <button class="btn  text-danger  text-start fw-bold">
+                                Ruta la catedral y sus rincones
+                            </button>
+                        </div>
+                        <div class="col border-1 border-bottom">
+                            <button class="btn  text-danger  text-start fw-bold">
+                                Ruta Murallas y elementos defensivos de Toledo
+                            </button>
+                        </div>
+                    </div>
+                    <div class="row gap-2 mt-1">
+                        <div class="col border-1 border-bottom">
+                            <button class="btn  text-danger  text-start fw-bold">
+                                Plazas desconocidas de Toledo
+                            </button>
+                        </div>
+                        <div class="col border-1 border-bottom">
+                            <button class="btn  text-danger  text-start fw-bold">
+                                Ruta mujeres ilustres toledanas
+                            </button>
+                        </div>
+                        <div class="col border-1 border-bottom">
+                            <button class="btn  text-danger  text-start fw-bold">
+                                Ruta Toledo actual
+                            </button>
+                        </div>
+                        <div class="col border-1 border-bottom">
+                            <button class="btn  text-danger  text-start fw-bold">
+                                Ruta Toledo y el agua
+                            </button>
+                        </div>
+                    </div>
+                    <div class="row gap-2 mt-1">
+                        <div class="col border-1 border-bottom">
+                            <button class="btn  text-danger  text-start fw-bold">
+                                Ruta Toledo 3 Culturas
+                            </button>
+                        </div>
+                        <div class="col border-1 border-bottom">
+                            <button class="btn  text-danger  text-start fw-bold">
+                                Toledo ciudad de la magia
+                            </button>
+                        </div>
+                        <div class="col border-1 border-bottom">
+                            <button class="btn  text-danger  text-start fw-bold">
+                                Casas singulares de Toledo
+                            </button>
+                        </div>
+                        <div class="col ">
+                            <!--Al último le faltaba un cacho, lo creo para que no  se descuadre pero vacío.-->
+                        </div>
+                    </div>
+                    </div>
+                    
+
+                </div>
+            </div>
+            <button class="btn text-danger dropdown-toggle" data-bs-toggle="dropdown">Rutas privadas</button>
+            <div class="dropdown dropdown-menu">
+                <div class=" list-group list-group-vertical list-group-flush">
+                    <button class="list-group-item  text-danger">RUTA 3</button>
+                            <button class="list-group-item  text-danger">RUTA 4</button>
+                </div>
+            </div>
+            <button class="btn text-danger">Regala una ruta</button>
+            <button class="btn text-danger">Contacto</button>
+            <button class="btn text-danger">Blog</button>
+            <button class="btn text-danger">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+                <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0"/>
+                </svg>
+            </button>
+        </div>
+        </nav>
+    </header>
+    
+    <div id="carouselExampleAutoplaying" class="carousel slide mt-5  "  data-bs-ride="carousel" data-bs-wrap="true">
+    <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide-to="0" class="active"  aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide-to="1"  aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide-to="2"  aria-label="Slide 3"></button>
+        <button type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide-to="3"  aria-label="Slide 4"></button>
+    </div>
+    <div class="carousel-inner carousel-fade">
+        <div class="carousel-item    active " data-bs-interval="2400">
+            <img src="IMG/BannerVISITASGUIADAS.jpg" class="d-block w-100" >
+        </div>
+        <div class="carousel-item " data-bs-interval="2400">
+            <img src="IMG/sean-pavone-toledo-spain-town-skyline-at-dusk-at-the-cathedral_u-l-q130iuf0.jpg" class="d-block w-100" >
+        </div>
+        <div class="carousel-item"  data-bs-interval="2400">
+            <img src="IMG/Toledo_Skyline_Panorama,_Spain_-_Dec_2006.jpg" class="d-block w-100" >
+        </div>
+        <div class="carousel-item " data-bs-interval="2400">
+            <img src="IMG/toledo-iluminada.jpg" class="d-block w-100">
+        </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+    </button>
+    </div>
+
+    <div class="container-fluid mt-3 " >
+        <div class=" border border-secondary-alt"></div>
+    </div>
+    <div class="info text-amarillo container mt-5 text-center ">
+        <p>Toledo, declarada Patrimonio de la Humanidad en 1986, abrazó durante siglos la convivencia de la cultura judía, musulmana y cristiana. Denominada “La ciudad de las tres culturas”, respira una mezcla de estilos, de tiempos y de gentes que la hace una de las ciudades más atractivas para visitar.</p>
+        <span class="text-oscuro">Elige entre las rutas que te proponemos y ven a disfrutar de Toledo.</span>
+    </div>
+    <div class="container my-5">
+
+    <div class="d-flex flex-wrap justify-content-center  gap-4">
+
+        <div class="card border-0" >
+            <div class="card-body">
+                    <img src="IMG/r1.jpg" class="card-img-top  mx-auto" alt="fotito">
+                    <p class="card-text text-amarillo">Ruta Toledo 3 Culturas</p>
+                    <p class="card-text"><span class="precio fs-3 text-amarillo">12,00€</span><span class="text-secondary">/persona</span></p>
+                    <p class="card-text text-secondary ">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-clock" viewBox="0 0 16 16">
+                        <path d="M8 3.5a.5.5 0 0 0-1 0V9a.5.5 0 0 0 .252.434l3.5 2a.5.5 0 0 0 .496-.868L8 8.71z"/>
+                        <path d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16m7-8A7 7 0 1 1 1 8a7 7 0 0 1 14 0"/>
+                        </svg>
+                         2 horas
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-send" viewBox="0 0 16 16">
+                        <path d="M15.854.146a.5.5 0 0 1 .11.54l-5.819 14.547a.75.75 0 0 1-1.329.124l-3.178-4.995L.643 7.184a.75.75 0 0 1 .124-1.33L15.314.037a.5.5 0 0 1 .54.11ZM6.636 10.07l2.761 4.338L14.13 2.576zm6.787-8.201L1.591 6.602l4.339 2.76z"/>
+                        </svg>
+                        Paseo a pie
+                    </p>
+            </div>
+        </div>
+        <div class="card border-0" >
+            <div class="card-body">
+                    <img src="IMG/r2.jpg" class="card-img-top  mx-auto" alt="fotito">
+                    <p class="card-text text-amarillo">Ruta Toledo y el agua</p>
+                    <p class="card-text"><span class="precio fs-3 text-amarillo">12,00€</span><span class="text-secondary">/persona</span></p>
+                    <p class="card-text text-secondary ">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-clock" viewBox="0 0 16 16">
+                        <path d="M8 3.5a.5.5 0 0 0-1 0V9a.5.5 0 0 0 .252.434l3.5 2a.5.5 0 0 0 .496-.868L8 8.71z"/>
+                        <path d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16m7-8A7 7 0 1 1 1 8a7 7 0 0 1 14 0"/>
+                        </svg>
+                         2 horas
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-send" viewBox="0 0 16 16">
+                        <path d="M15.854.146a.5.5 0 0 1 .11.54l-5.819 14.547a.75.75 0 0 1-1.329.124l-3.178-4.995L.643 7.184a.75.75 0 0 1 .124-1.33L15.314.037a.5.5 0 0 1 .54.11ZM6.636 10.07l2.761 4.338L14.13 2.576zm6.787-8.201L1.591 6.602l4.339 2.76z"/>
+                        </svg>
+                        Paseo a pie
+                    </p>
+                
+            </div>
+        </div>
+        <div class="card border-0" >
+            <div class="card-body">
+                    <img src="IMG/r3.jpg" class="card-img-top  mx-auto" alt="fotito">
+                    <p class="card-text text-amarillo">Ruta Toledo actual</p>
+                    <p class="card-text"><span class="precio fs-3 text-amarillo">12,00€</span><span class="text-secondary">/persona</span></p>
+                    <p class="card-text text-secondary ">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-clock" viewBox="0 0 16 16">
+                        <path d="M8 3.5a.5.5 0 0 0-1 0V9a.5.5 0 0 0 .252.434l3.5 2a.5.5 0 0 0 .496-.868L8 8.71z"/>
+                        <path d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16m7-8A7 7 0 1 1 1 8a7 7 0 0 1 14 0"/>
+                        </svg>
+                         2 horas
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-send" viewBox="0 0 16 16">
+                        <path d="M15.854.146a.5.5 0 0 1 .11.54l-5.819 14.547a.75.75 0 0 1-1.329.124l-3.178-4.995L.643 7.184a.75.75 0 0 1 .124-1.33L15.314.037a.5.5 0 0 1 .54.11ZM6.636 10.07l2.761 4.338L14.13 2.576zm6.787-8.201L1.591 6.602l4.339 2.76z"/>
+                        </svg>
+                        Paseo a pie
+                    </p>
+                
+            </div>
+        </div>
+        <div class="card border-0" >
+            <div class="card-body">
+                    <img src="IMG/r4.jpg" class="card-img-top  mx-auto" alt="fotito">
+                    <p class="card-text text-amarillo">Ruta mujeres ilustres toledanas</p>
+                    <p class="card-text"><span class="precio fs-3 text-amarillo">12,00€</span><span class="text-secondary">/persona</span></p>
+                    <p class="card-text text-secondary ">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-clock" viewBox="0 0 16 16">
+                        <path d="M8 3.5a.5.5 0 0 0-1 0V9a.5.5 0 0 0 .252.434l3.5 2a.5.5 0 0 0 .496-.868L8 8.71z"/>
+                        <path d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16m7-8A7 7 0 1 1 1 8a7 7 0 0 1 14 0"/>
+                        </svg>
+                         2 horas
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-send" viewBox="0 0 16 16">
+                        <path d="M15.854.146a.5.5 0 0 1 .11.54l-5.819 14.547a.75.75 0 0 1-1.329.124l-3.178-4.995L.643 7.184a.75.75 0 0 1 .124-1.33L15.314.037a.5.5 0 0 1 .54.11ZM6.636 10.07l2.761 4.338L14.13 2.576zm6.787-8.201L1.591 6.602l4.339 2.76z"/>
+                        </svg>
+                        Paseo a pie
+                    </p>
+                
+            </div>
+        </div>
+        <div class="card border-0" >
+            <div class="card-body">
+                    <img src="IMG/r5.jpg" class="card-img-top  mx-auto" alt="fotito">
+                    <p class="card-text text-amarillo">Plazas desconocidas de Toledo</p>
+                    <p class="card-text"><span class="precio fs-3 text-amarillo">12,00€</span><span class="text-secondary">/persona</span></p>
+                    <p class="card-text text-secondary ">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-clock" viewBox="0 0 16 16">
+                        <path d="M8 3.5a.5.5 0 0 0-1 0V9a.5.5 0 0 0 .252.434l3.5 2a.5.5 0 0 0 .496-.868L8 8.71z"/>
+                        <path d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16m7-8A7 7 0 1 1 1 8a7 7 0 0 1 14 0"/>
+                        </svg>
+                         2 horas
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-send" viewBox="0 0 16 16">
+                        <path d="M15.854.146a.5.5 0 0 1 .11.54l-5.819 14.547a.75.75 0 0 1-1.329.124l-3.178-4.995L.643 7.184a.75.75 0 0 1 .124-1.33L15.314.037a.5.5 0 0 1 .54.11ZM6.636 10.07l2.761 4.338L14.13 2.576zm6.787-8.201L1.591 6.602l4.339 2.76z"/>
+                        </svg>
+                        Paseo a pie
+                    </p>
+                
+            </div>
+        </div>
+        <div class="card border-0" >
+            <div class="card-body">
+                    <img src="IMG/r6.jpg" class="card-img-top  mx-auto" alt="fotito">
+                    <p class="card-text text-amarillo">Rutas Murallas y elementos defensivos de Toledo</p>
+                    <p class="card-text"><span class="precio fs-3 text-amarillo">12,00€</span><span class="text-secondary">/persona</span></p>
+                    <p class="card-text text-secondary ">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-clock" viewBox="0 0 16 16">
+                        <path d="M8 3.5a.5.5 0 0 0-1 0V9a.5.5 0 0 0 .252.434l3.5 2a.5.5 0 0 0 .496-.868L8 8.71z"/>
+                        <path d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16m7-8A7 7 0 1 1 1 8a7 7 0 0 1 14 0"/>
+                        </svg>
+                         2 horas
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-send" viewBox="0 0 16 16">
+                        <path d="M15.854.146a.5.5 0 0 1 .11.54l-5.819 14.547a.75.75 0 0 1-1.329.124l-3.178-4.995L.643 7.184a.75.75 0 0 1 .124-1.33L15.314.037a.5.5 0 0 1 .54.11ZM6.636 10.07l2.761 4.338L14.13 2.576zm6.787-8.201L1.591 6.602l4.339 2.76z"/>
+                        </svg>
+                        Paseo a pie
+                    </p>
+                
+            </div>
+        </div>
+        <div class="card border-0" >
+            <div class="card-body">
+                    <img src="IMG/r7.jpg" class="card-img-top  mx-auto" alt="fotito">
+                    <p class="card-text text-amarillo">Ruta la catedral y sus rincones</p>
+                    <p class="card-text"><span class="precio fs-3 text-amarillo">10,00€</span><span class="text-secondary">/persona</span></p>
+                    <p class="card-text text-secondary ">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-clock" viewBox="0 0 16 16">
+                        <path d="M8 3.5a.5.5 0 0 0-1 0V9a.5.5 0 0 0 .252.434l3.5 2a.5.5 0 0 0 .496-.868L8 8.71z"/>
+                        <path d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16m7-8A7 7 0 1 1 1 8a7 7 0 0 1 14 0"/>
+                        </svg>
+                         1,5 h
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-send" viewBox="0 0 16 16">
+                        <path d="M15.854.146a.5.5 0 0 1 .11.54l-5.819 14.547a.75.75 0 0 1-1.329.124l-3.178-4.995L.643 7.184a.75.75 0 0 1 .124-1.33L15.314.037a.5.5 0 0 1 .54.11ZM6.636 10.07l2.761 4.338L14.13 2.576zm6.787-8.201L1.591 6.602l4.339 2.76z"/>
+                        </svg>
+                        Paseo a pie
+                    </p>
+                
+            </div>
+        </div>
+        <div class="card border-0" >
+            <div class="card-body">
+                    <img src="IMG/r8.jpg" class="card-img-top  mx-auto" alt="fotito">
+                    <p class="card-text text-amarillo">Ruta Pulsera turística de Toledo</p>
+                    <p class="card-text"><span class="precio  fs-4 text-amarillo">24,00€</span><span class="text-secondary">/persona</span></p>
+                    <p class="card-text text-secondary ">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-clock" viewBox="0 0 16 16">
+                        <path d="M8 3.5a.5.5 0 0 0-1 0V9a.5.5 0 0 0 .252.434l3.5 2a.5.5 0 0 0 .496-.868L8 8.71z"/>
+                        <path d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16m7-8A7 7 0 1 1 1 8a7 7 0 0 1 14 0"/>
+                        </svg>
+                         2 horas
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-send" viewBox="0 0 16 16">
+                        <path d="M15.854.146a.5.5 0 0 1 .11.54l-5.819 14.547a.75.75 0 0 1-1.329.124l-3.178-4.995L.643 7.184a.75.75 0 0 1 .124-1.33L15.314.037a.5.5 0 0 1 .54.11ZM6.636 10.07l2.761 4.338L14.13 2.576zm6.787-8.201L1.591 6.602l4.339 2.76z"/>
+                        </svg>
+                        Paseo a pie
+                    </p>
+            </div>
+        </div>
+        <div class="card border-0" >
+            <div class="card-body">
+                    <img src="IMG/r9.jpg" class="card-img-top  mx-auto" alt="fotito">
+                    <p class="card-text text-amarillo">RUTA NOCHE TOLEDANA</p>
+                    <p class="card-text"><span class="precio fs-3 text-amarillo">12,00€</span><span class="text-secondary">/persona</span></p>
+                    <p class="card-text text-secondary ">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-clock" viewBox="0 0 16 16">
+                        <path d="M8 3.5a.5.5 0 0 0-1 0V9a.5.5 0 0 0 .252.434l3.5 2a.5.5 0 0 0 .496-.868L8 8.71z"/>
+                        <path d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16m7-8A7 7 0 1 1 1 8a7 7 0 0 1 14 0"/>
+                        </svg>
+                         2 horas
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-send" viewBox="0 0 16 16">
+                        <path d="M15.854.146a.5.5 0 0 1 .11.54l-5.819 14.547a.75.75 0 0 1-1.329.124l-3.178-4.995L.643 7.184a.75.75 0 0 1 .124-1.33L15.314.037a.5.5 0 0 1 .54.11ZM6.636 10.07l2.761 4.338L14.13 2.576zm6.787-8.201L1.591 6.602l4.339 2.76z"/>
+                        </svg>
+                        Paseo a pie
+                    </p>
+                
+            </div>
+        </div>
+        <div class="card border-0" >
+            <div class="card-body">
+                    <img src="IMG/r10.jpg" class="card-img-top  mx-auto" alt="fotito">
+                    <p class="card-text text-amarillo">Toledo en guerra</p>
+                    <p class="card-text"><span class="precio fs-3 text-amarillo">12,00€</span><span class="text-secondary">/persona</span></p>
+                    <p class="card-text text-secondary ">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-clock" viewBox="0 0 16 16">
+                        <path d="M8 3.5a.5.5 0 0 0-1 0V9a.5.5 0 0 0 .252.434l3.5 2a.5.5 0 0 0 .496-.868L8 8.71z"/>
+                        <path d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16m7-8A7 7 0 1 1 1 8a7 7 0 0 1 14 0"/>
+                        </svg>
+                         2 horas
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-send" viewBox="0 0 16 16">
+                        <path d="M15.854.146a.5.5 0 0 1 .11.54l-5.819 14.547a.75.75 0 0 1-1.329.124l-3.178-4.995L.643 7.184a.75.75 0 0 1 .124-1.33L15.314.037a.5.5 0 0 1 .54.11ZM6.636 10.07l2.761 4.338L14.13 2.576zm6.787-8.201L1.591 6.602l4.339 2.76z"/>
+                        </svg>
+                        Paseo a pie
+                    </p>
+                
+            </div>
+        </div>
+        <div class="card border-0" >
+            <div class="card-body">
+                    <img src="IMG/r11.jpg" class="card-img-top  mx-auto" alt="fotito">
+                    <p class="card-text text-amarillo">El mudéjar toledano</p>
+                    <p class="card-text"><span class="precio fs-3 text-amarillo">12,00€</span><span class="text-secondary">/persona</span></p>
+                    <p class="card-text text-secondary ">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-clock" viewBox="0 0 16 16">
+                        <path d="M8 3.5a.5.5 0 0 0-1 0V9a.5.5 0 0 0 .252.434l3.5 2a.5.5 0 0 0 .496-.868L8 8.71z"/>
+                        <path d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16m7-8A7 7 0 1 1 1 8a7 7 0 0 1 14 0"/>
+                        </svg>
+                         2 horas
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-send" viewBox="0 0 16 16">
+                        <path d="M15.854.146a.5.5 0 0 1 .11.54l-5.819 14.547a.75.75 0 0 1-1.329.124l-3.178-4.995L.643 7.184a.75.75 0 0 1 .124-1.33L15.314.037a.5.5 0 0 1 .54.11ZM6.636 10.07l2.761 4.338L14.13 2.576zm6.787-8.201L1.591 6.602l4.339 2.76z"/>
+                        </svg>
+                        Paseo a pie
+                    </p>
+                
+            </div>
+        </div>
+        <div class="card border-0" >
+            <div class="card-body">
+                    <img src="IMG/r12.jpg" class="card-img-top  mx-auto" alt="fotito">
+                    <p class="card-text text-amarillo">Los mejores miradores de Toledo</p>
+                    <p class="card-text"><span class="precio fs-3 text-amarillo">12,00€</span><span class="text-secondary">/persona</span></p>
+                    <p class="card-text text-secondary ">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-clock" viewBox="0 0 16 16">
+                        <path d="M8 3.5a.5.5 0 0 0-1 0V9a.5.5 0 0 0 .252.434l3.5 2a.5.5 0 0 0 .496-.868L8 8.71z"/>
+                        <path d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16m7-8A7 7 0 1 1 1 8a7 7 0 0 1 14 0"/>
+                        </svg>
+                         2 horas
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-send" viewBox="0 0 16 16">
+                        <path d="M15.854.146a.5.5 0 0 1 .11.54l-5.819 14.547a.75.75 0 0 1-1.329.124l-3.178-4.995L.643 7.184a.75.75 0 0 1 .124-1.33L15.314.037a.5.5 0 0 1 .54.11ZM6.636 10.07l2.761 4.338L14.13 2.576zm6.787-8.201L1.591 6.602l4.339 2.76z"/>
+                        </svg>
+                        Paseo a pie
+                    </p>
+                
+            </div>
+        </div>
+        <div class="card border-0" >
+            <div class="card-body">
+                    <img src="IMG/r13.jpg" class="card-img-top  mx-auto" alt="fotito">
+                    <p class="card-text text-amarillo">Vida en la judería de Toledo</p>
+                    <p class="card-text"><span class="precio fs-3 text-amarillo">12,00€</span><span class="text-secondary">/persona</span></p>
+                    <p class="card-text text-secondary ">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-clock" viewBox="0 0 16 16">
+                        <path d="M8 3.5a.5.5 0 0 0-1 0V9a.5.5 0 0 0 .252.434l3.5 2a.5.5 0 0 0 .496-.868L8 8.71z"/>
+                        <path d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16m7-8A7 7 0 1 1 1 8a7 7 0 0 1 14 0"/>
+                        </svg>
+                         2 horas
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-send" viewBox="0 0 16 16">
+                        <path d="M15.854.146a.5.5 0 0 1 .11.54l-5.819 14.547a.75.75 0 0 1-1.329.124l-3.178-4.995L.643 7.184a.75.75 0 0 1 .124-1.33L15.314.037a.5.5 0 0 1 .54.11ZM6.636 10.07l2.761 4.338L14.13 2.576zm6.787-8.201L1.591 6.602l4.339 2.76z"/>
+                        </svg>
+                        Paseo a pie
+                    </p>
+                
+            </div>
+        </div>
+        <div class="card border-0" >
+            <div class="card-body">
+                    <img src="IMG/r14.jpeg" class="card-img-top  mx-auto" alt="fotito">
+                    <p class="card-text text-amarillo">Casas singulares de Toledo</p>
+                    <p class="card-text"><span class="precio fs-3 text-amarillo">12,00€</span><span class="text-secondary">/persona</span></p>
+                    <p class="card-text text-secondary ">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-clock" viewBox="0 0 16 16">
+                        <path d="M8 3.5a.5.5 0 0 0-1 0V9a.5.5 0 0 0 .252.434l3.5 2a.5.5 0 0 0 .496-.868L8 8.71z"/>
+                        <path d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16m7-8A7 7 0 1 1 1 8a7 7 0 0 1 14 0"/>
+                        </svg>
+                         2 horas
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-send" viewBox="0 0 16 16">
+                        <path d="M15.854.146a.5.5 0 0 1 .11.54l-5.819 14.547a.75.75 0 0 1-1.329.124l-3.178-4.995L.643 7.184a.75.75 0 0 1 .124-1.33L15.314.037a.5.5 0 0 1 .54.11ZM6.636 10.07l2.761 4.338L14.13 2.576zm6.787-8.201L1.591 6.602l4.339 2.76z"/>
+                        </svg>
+                        Paseo a pie
+                    </p>
+                
+            </div>
+        </div>
+        <div class="card border-0" >
+            <div class="card-body">
+                    <img src="IMG/r15.jpg" class="card-img-top  mx-auto" alt="fotito">
+                    <p class="card-text text-amarillo">Toledo ciudad de la magia</p>
+                    <p class="card-text"><span class="precio fs-3 text-amarillo">12,00€</span><span class="text-secondary">/persona</span></p>
+                    <p class="card-text text-secondary ">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-clock" viewBox="0 0 16 16">
+                        <path d="M8 3.5a.5.5 0 0 0-1 0V9a.5.5 0 0 0 .252.434l3.5 2a.5.5 0 0 0 .496-.868L8 8.71z"/>
+                        <path d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16m7-8A7 7 0 1 1 1 8a7 7 0 0 1 14 0"/>
+                        </svg>
+                         2 horas
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-send" viewBox="0 0 16 16">
+                        <path d="M15.854.146a.5.5 0 0 1 .11.54l-5.819 14.547a.75.75 0 0 1-1.329.124l-3.178-4.995L.643 7.184a.75.75 0 0 1 .124-1.33L15.314.037a.5.5 0 0 1 .54.11ZM6.636 10.07l2.761 4.338L14.13 2.576zm6.787-8.201L1.591 6.602l4.339 2.76z"/>
+                        </svg>
+                        Paseo a pie
+                    </p>
+                
+            </div>
+        </div>
+        <div class="card border-0" >
+            <div class="card-body">
+                    <img src="IMG/r16.jpeg" class="card-img-top  mx-auto" alt="fotito">
+                    <p class="card-text text-amarillo">Ruta del Greco, vida y obra de un genio</p>
+                    <p class="card-text"><span class="precio fs-3 text-amarillo">12,00€</span><span class="text-secondary">/persona</span></p>
+                    <p class="card-text text-secondary ">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-clock" viewBox="0 0 16 16">
+                        <path d="M8 3.5a.5.5 0 0 0-1 0V9a.5.5 0 0 0 .252.434l3.5 2a.5.5 0 0 0 .496-.868L8 8.71z"/>
+                        <path d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16m7-8A7 7 0 1 1 1 8a7 7 0 0 1 14 0"/>
+                        </svg>
+                         2 horas
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-send" viewBox="0 0 16 16">
+                        <path d="M15.854.146a.5.5 0 0 1 .11.54l-5.819 14.547a.75.75 0 0 1-1.329.124l-3.178-4.995L.643 7.184a.75.75 0 0 1 .124-1.33L15.314.037a.5.5 0 0 1 .54.11ZM6.636 10.07l2.761 4.338L14.13 2.576zm6.787-8.201L1.591 6.602l4.339 2.76z"/>
+                        </svg>
+                        Paseo a pie
+                    </p>
+            </div>
+    </div>
+    <div class="container my-3 d-flex flex-column mt-5">
+        <div class="mx-auto">
+
+            <div class="d-flex gap-3 flex-row p-4">
+                <img class="img logo-toledo" src="IMG/logo-toledo-3-culturas-300.png" alt="logo">
+
+                <div class="d-flex flex-column text-amarillo">
+                    <h4>toledo 3 culturas</h4>
+                    <p class="fw-bold">🙍‍♂️ #Guíasoficiales de turismo 🚩 Rutas y #visitasguiadas 
+                        👩‍👦‍👦 En grupo o individuales ❤Enamorados de #Toledo 
+                        ☎️ 603420820  ✉info@toledo3culturas.com
+                    </p>
+                </div>
+            </div> 
+            <div class="mx-auto">
+                <div class="d-flex flex-wrap justify-content-center  gap-2  mt-3 videos">
+                    <button class="border-0"><img class="img" src="IMG/f1.png"></button>
+                    <button class="border-0"><img class="img" src="IMG/f2.png" data-bs-toggle="modal" data-bs-target="#video1"></button>
+                    
+                    <div class="modal modal-lg fade" id="video1" tabindex="-1" role="dialog" aria-labelledby="video1" aria-hidden="true">
+                        <div class=" modal-dialog  modal-dialog-centered" role="document">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title text-danger" id="video1">Primer Vídeo: </h5>
+                                </div>
+                                <div class="modal-body">
+                                    <div class="video">
+                                        <video  controls="controls" id="myVideo">
+                                            <source src="IMG/VIDEO/clip1.mp4" type="video/mp4">
+                                            <source src="video/clip.ogg" type="video/ogg">
+                                            Your browser doesn't support the <video> element.
+                                        </video> 
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="border-0"><img class="img" src="IMG/f3.png"></button>
+                    <button class="border-0"><img class="img" src="IMG/f4.png"></button>
+                    <button class="border-0"><img class="img" src="IMG/f5.png" data-bs-toggle="modal" data-bs-target="#video2"></button>
+                    <div class="modal modal-lg fade" id="video2" tabindex="-1" role="dialog" aria-labelledby="video2" aria-hidden="true">
+                        <div class=" modal-dialog  modal-dialog-centered" role="document">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title text-danger" id="video2">Primer Vídeo: </h5>
+                                </div>
+                                <div class="modal-body">
+                                    <div class="video">
+                                        <video  controls="controls">
+                                            <source src="IMG/VIDEO/clip2.mp4" type="video/mp4">
+                                            <source src="video/clip.ogg" type="video/ogg">
+                                            Your browser doesn't support the <video> element.
+                                        </video> 
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="border-0"><img class="img" src="IMG/f6.png" data-bs-toggle="modal" data-bs-target="#video3"></button>
+                    <div class="modal modal-lg fade" id="video3" tabindex="-1" role="dialog" aria-labelledby="video3" aria-hidden="true">
+                        <div class=" modal-dialog  modal-dialog-centered" role="document">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title text-danger" id="video3">Primer Vídeo: </h5>
+                                </div>
+                                <div class="modal-body">
+                                    <div class="video">
+                                        <video  controls="controls">
+                                            <source src="IMG/VIDEO/clip3.mp4" type="video/mp4">
+                                            <source src="video/clip.ogg" type="video/ogg">
+                                            Your browser doesn't support the <video> element.
+                                        </video> 
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="border-0"><img class="img" src="IMG/f7.png" data-bs-toggle="modal" data-bs-target="#video4"></button>
+                    <div class="modal modal-lg fade" id="video4" tabindex="-1" role="dialog" aria-labelledby="video4" aria-hidden="true">
+                        <div class=" modal-dialog  modal-dialog-centered" role="document">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title text-danger" id="video4">Primer Vídeo: </h5>
+                                </div>
+                                <div class="modal-body">
+                                    <div class="video">
+                                        <video  controls="controls">
+                                            <source src="IMG/VIDEO/clip4.mp4" type="video/mp4">
+                                            <source src="video/clip.ogg" type="video/ogg">
+                                            Your browser doesn't support the <video> element.
+                                        </video> 
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="border-0"><img class="img" src="IMG/f8.png" data-bs-toggle="modal" data-bs-target="#video5"></button>
+                    <div class="modal modal-lg fade" id="video5" tabindex="-1" role="dialog" aria-labelledby="video5" aria-hidden="true">
+                        <div class=" modal-dialog  modal-dialog-centered" role="document">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title text-danger" id="video5">Primer Vídeo: </h5>
+                                </div>
+                                <div class="modal-body">
+                                    <div class="video">
+                                        <video  controls="controls">
+                                            <source src="IMG/VIDEO/clip5.mp4" type="video/mp4">
+                                            <source src="video/clip.ogg" type="video/ogg">
+                                            Your browser doesn't support the <video> element.
+                                        </video> 
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container mapa   my-3 d-flex flex-column mt-5">
+        <div class="mx-auto w-75">
+            <h2 class="text-danger">¡Encuéntranos!</h2>
+            <iframe class="shadow-lg" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12663.871817361694!2d-2.7771881778904994!3d37.48508258181832!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd6fe9ce3d0f9075%3A0x30faad66bcf34f33!2sIES%20Pedro%20Jim%C3%A9nez%20Montoya!5e0!3m2!1ses!2ses!4v1764235557251!5m2!1ses!2ses" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </div>
+    </div>
+    </div>
+    
+    <footer class="bg-dark border-top border-1 border-secondary-alt">
+        <div class="container">
+            <div class="d-flex flex-wrap gap-5 text-white mt-5">
+                <div>
+                    <h5><span class="text-oscuro">Enlaces de Interés:</span> </h5>
+                    <p>Templarios, instrumentos de tortura, mazmorras</p>
+                    <p>Ayuntamiento de Toledo</p>
+                    <p>Estación de autobuses de Toledo</p>
+                    <p>Ave a Toledo</p>
+                    <p>Plano turístico de Toledo</p>
+                </div>
+                <div>
+                    <h5><span class="text-oscuro">Busca tu Ruta:</span> </h5>
+                    <div class="input-group rounded">
+                    <input type="search" class="form-control " placeholder="Search" aria-label="Search" aria-describedby="search-addon" />
+                    <span class="input-group-text border-0 bg-secondary-subtle" id="search-addon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+                        <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0"/>
+                        </svg>
+                    </span>
+                    </div>
+                </div>
+                <div>
+                    <h5><span class="text-oscuro">Otros enlaces</span> </h5>
+                    <ul>
+                        <li><a>Forma de pago</a></li>
+                        <li>Política de Privacidad</li>
+                        <li>Política de cookies</li>
+                        <li>Aviso Legal</li>
+                        <li>Encuesta de Satisfacción</li>
+                        <li>Política de cookies (UE)</li>
+                    </ul>
+                </div>
+                <div>
+                    <h5><span class="text-oscuro">Turismo responsable</span> </h5>
+                    <img src="IMG/Turismo-Seguro-logo.jpg " alt="patatas fritas">
+                </div>
+                <div>
+                    <img src="IMG/Logo-SICTED-ES-EN-alargado.jpg" alt="cacahuetes">
+                </div>
+                <div>
+                    <h5><span class="text-oscuro">Reserva en:</span> </h5>
+                    <p>603 420 820</p>
+                    <p>info@toledo3culturas.com</p>
+                </div>
+                 <div>
+                    <img src="IMG/tarjetas_admitidas1-300x43.png" alt="boquerones">
+                  
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
