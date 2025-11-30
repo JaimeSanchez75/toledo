@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.min.js" integrity="sha384-G/EV+4j2dNv+tEPo3++6LCgdCROaejBqfUeNjuKAiuXbjrxilcCdDz6ZAVfHWe1Y" crossorigin="anonymous"></script>
+
+    <title>Document</title>
+</head>
+<body>
+    <header class=" bg-light  border-bottom border-1 border-secondary-alt mx-auto text-center sticky-top">
+        <div class="container text-center"> <img class=" img mx-auto " src="IMG/logo-toledo-3-culturas-300.png" alt="toledo"></div>
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+
+                <!-- BOTÓN HAMBURGUESA -->
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menuNav"
+                    aria-controls="menuNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!-- MENÚ COMPLETO ORIGINAL (sin modificar nada dentro) -->
+                <div class="collapse navbar-collapse" id="menuNav">
+                    <div class="btn-group mx-auto text-center btn-group gap-2 ">
+                        <button class="btn text-warning">Inicio</button>
+                        <button class="btn text-danger">Quiénes somos</button>
+                        <div class="dropdown">
+                            <button class="btn text-danger dropdown-toggle" data-bs-toggle="dropdown">Nuestras rutas por Toledo</button>
+
+                            <div class="dropdown-menu menu1 p-3">
+                                <div class="container">
+                                    <div class="row gap-2">
+                                        <div class="col border-1 border-bottom">
+                                            <button class="btn text-danger text-start fw-bold">
+                                                Vida en la judería de Toledo
+                                            </button>
+                                        </div>
+                                        <div class="col border-1 border-bottom">
+                                            <button class="btn text-danger text-start fw-bold">
+                                                Los mejores miradores de Toledo
+                                            </button>
+                                        </div>
+                                        <div class="col border-1 border-bottom">
+                                            <button class="btn text-danger text-start fw-bold">
+                                                El mudéjar toledano
+                                            </button>
+                                        </div>
+                                        <div class="col border-1 border-bottom">
+                                            <button class="btn text-danger text-start fw-bold">
+                                                Toledo en guerra
+                                            </button>
+                                        </div>
+                                    </div>
+
+                                    <div class="row gap-2 mt-1">
+                                        <div class="col border-1 border-bottom">
+                                            <button class="btn text-danger text-start fw-bold">
+                                                RUTA NOCHE TOLEDANA
+                                            </button>
+                                        </div>
+                                        <div class="col border-1 border-bottom">
+                                            <button class="btn text-danger text-start fw-bold">
+                                                Ruta Pulsera Turística de Toledo
+                                            </button>
+                                        </div>
+                                        <div class="col border-1 border-bottom">
+                                            <button class="btn text-danger text-start fw-bold">
+                                                Ruta la catedral y sus rincones
+                                            </button>
+                                        </div>
+                                        <div class="col border-1 border-bottom">
+                                            <button class="btn text-danger text-start fw-bold">
+                                                Ruta Murallas y elementos defensivos de Toledo
+                                            </button>
+                                        </div>
+                                    </div>
+
+                                    <div class="row gap-2 mt-1">
+                                        <div class="col border-1 border-bottom">
+                                            <button class="btn text-danger text-start fw-bold">
+                                                Plazas desconocidas de Toledo
+                                            </button>
+                                        </div>
+                                        <div class="col border-1 border-bottom">
+                                            <button class="btn text-danger text-start fw-bold">
+                                                Ruta mujeres ilustres toledanas
+                                            </button>
+                                        </div>
+                                        <div class="col border-1 border-bottom">
+                                            <button class="btn text-danger text-start fw-bold">
+                                                Ruta Toledo actual
+                                            </button>
+                                        </div>
+                                        <div class="col border-1 border-bottom">
+                                            <button class="btn text-danger text-start fw-bold">
+                                                Ruta Toledo y el agua
+                                            </button>
+                                        </div>
+                                    </div>
+
+                                    <div class="row gap-2 mt-1">
+                                        <div class="col border-1 border-bottom">
+                                            <button class="btn text-danger text-start fw-bold">
+                                                Ruta Toledo 3 Culturas
+                                            </button>
+                                        </div>
+                                        <div class="col border-1 border-bottom">
+                                            <button class="btn text-danger text-start fw-bold">
+                                                Toledo ciudad de la magia
+                                            </button>
+                                        </div>
+                                        <div class="col border-1 border-bottom">
+                                            <button class="btn text-danger text-start fw-bold">
+                                                Casas singulares de Toledo
+                                            </button>
+                                        </div>
+                                        <div class="col">
+                                            <!-- vacío para cuadrar -->
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+
+                        <button class="btn text-danger dropdown-toggle" data-bs-toggle="dropdown">Rutas privadas</button>
+                        <div class="dropdown dropdown-menu">
+                            <div class="list-group list-group-vertical list-group-flush">
+                                <button class="list-group-item text-danger">RUTA 3</button>
+                                <button class="list-group-item text-danger">RUTA 4</button>
+                            </div>
+                        </div>
+
+                        <button class="btn text-danger">Regala una ruta</button>
+                        <button class="btn text-danger"><a class="nav-link" href="contacto.html">Contacto</a></button>
+                        <button class="btn text-danger">Blog</button>
+
+                        <button class="btn text-danger">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                class="bi bi-search" viewBox="0 0 16 16">
+                                <path
+                                    d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0" />
+                            </svg>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+    
+    <div>
+        <img class=" img-fluid w-100" src="IMG/Call-to-action-imagen-home-juderia-de-toledo.jpg" alt="toledo3culturas">
+    </div>
+
+    <div class="container-fluid mt-3 " >
+        <div class=" border border-secondary-alt"></div>
+    </div>
+    
+    <div class="container d-flex flex-row my-5">
+
+        <div class="container d-flex flex-column text-secondary">
+            <div class="container mb-4">
+            <p>
+                Rellene este formulario de <span class="text-danger">contacto</span> para reservar su ruta. Si realiza su reserva para una <span class="fw-bold">ruta por Toledo</span> a través de esta Web, por e-mail, <span class="fw-bold">recibirá confirmación de la reserva en unas horas.</span> Llámenos si en el plazo de uno o dos días no has recibido ninguna respuesta. En todo caso <span class="fw-bold">facilite un número de teléfono móvil</span> por si tenemos que contactar con usted.
+            </p>
+            <p>
+                Si desea realizar una reserva en nuestras rutas programadas, complete el formulario que aparece en cualquier página al pulsar sobre el botón en la zona derecha <span class="fw-bold">¡RESERVAR ESTA RUTA!</span> o llámenos al <span class="fw-bold">teléfono</span> <span class="text-danger">603 420 820</span>. Si lo que desea es información en general, o en particular sobre alguna de las rutas o visitas a la carta, rellene el formulario de contacto que encontrará a continuación. 
+            </p>
+            <p>
+                Puede utilizar este formulario para enviarnos sus sugerencias, quejas y reclamaciones e intentaremos contactar para resolver sus dudas lo antes posible.
+            </p>
+            </div>
+            <div class="container d-flex flex-column  ">
+                <h3 class="text-oscuro">Formulario de Contacto</h3>
+                <form class="" >
+                    <div class="mb-3 d-flex flex-row gap-2 ">
+                        <input type="text" class="form-control w-50 bg-secondary-subtle" id="nombre" placeholder="Nombre*">
+                        <input type="text" class="form-control w-50 bg-secondary-subtle" id="nombre" placeholder="Dirección de correo e*">
+                    </div>
+                    <div class="mb-3 d-flex flex-row gap-2">
+                        <input type="text" class="form-control w-50 bg-secondary-subtle" id="nombre" placeholder="Nº teléfono">
+                        <input type="text" class="form-control w-50 bg-secondary-subtle" id="nombre" placeholder="Asunto*">
+                    </div>
+                    <div class="mb-3">
+                        <label for="mensaje" class="form-label">Mensaje:</label>
+                        <textarea class="form-control bg-secondary-subtle" id="mensaje" rows="4" placeholder="Mensaje*"></textarea>
+                    </div>
+                    <div class="mb-3 form-check">
+                        <input type="checkbox" class="form-check-input bg-secondary-subtle" id="exampleCheck1">
+                        <label class="form-check-label " for="exampleCheck1">Por favor, acepta nuestra <a class="text-secondary fw-bold" href="">Política de Privacidad</a>*</label>
+                    </div>
+                    <div class="mb-3 d-flex justify-content-end">
+                        <button type="submit " class="btn btn-outline-warning ">Enviar</button>
+                    </div>
+                </form>
+                <div class="mb-5">
+                    <p>Si ya ha elegido la ruta a realizar, envíenos una lista con los monumentos que desea visitar o de la ruta que le gustaría realizar y le enviaremos un presupuesto a medida. No sólo realizamos las rutas de nuestro programa, también planificamos rutas a medida de las necesidades del cliente o grupo <span class="text-danger">(consultar rutas para grupos).</span></p>    
+                </div>
+
+            </div>
+        </div>
+        <div class="container w-50  ">
+            <div class="container mb-5">
+                    <h5><span class="text-oscuro">Busca tu Ruta:</span> </h5>
+                    <div class="input-group rounded">
+                    <input type="search" class="form-control " placeholder="Search" aria-label="Search" aria-describedby="search-addon" />
+                    <span class="input-group-text border-0 bg-secondary-subtle" id="search-addon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+                        <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0"/>
+                        </svg>
+                    </span>
+                </div>
+            </div>
+            <div class="container">
+                <h5><span class="text-oscuro">Reserva en:</span> </h5>
+                    <p>603 420 820</p>
+                    <p>info@toledo3culturas.com</p>
+            </div>
+        </div>
+    </div>
+    
+    <footer class="bg-dark border-top border-1 border-secondary-al text-secondaryt">
+        <div class="container">
+            <div class="d-flex flex-wrap gap-5 text-white mt-5">
+                <div>
+                    <h5><span class="text-oscuro">Enlaces de Interés:</span> </h5>
+                    <p>Templarios, instrumentos de tortura, mazmorras</p>
+                    <p>Ayuntamiento de Toledo</p>
+                    <p>Estación de autobuses de Toledo</p>
+                    <p>Ave a Toledo</p>
+                    <p>Plano turístico de Toledo</p>
+                </div>
+                <div>
+                    <h5><span class="text-oscuro">Busca tu Ruta:</span> </h5>
+                    <div class="input-group rounded">
+                    <input type="search" class="form-control " placeholder="Search" aria-label="Search" aria-describedby="search-addon" />
+                    <span class="input-group-text border-0 bg-secondary-subtle" id="search-addon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+                        <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0"/>
+                        </svg>
+                    </span>
+                    </div>
+                </div>
+                <div>
+                    <h5><span class="text-oscuro">Otros enlaces</span> </h5>
+                    <ul>
+                        <li><a>Forma de pago</a></li>
+                        <li>Política de Privacidad</li>
+                        <li>Política de cookies</li>
+                        <li>Aviso Legal</li>
+                        <li>Encuesta de Satisfacción</li>
+                        <li>Política de cookies (UE)</li>
+                    </ul>
+                </div>
+                <div>
+                    <h5><span class="text-oscuro">Turismo responsable</span> </h5>
+                    <img class="responsable" src="IMG/Turismo-Seguro-logo.jpg " alt="patatas fritas">
+                </div>
+                <div>
+                    <img class="compromiso" src="IMG/Logo-SICTED-ES-EN-alargado.jpg" alt="cacahuetes">
+                </div>
+                <div>
+                    <h5><span class="text-oscuro">Reserva en:</span> </h5>
+                    <p>603 420 820</p>
+                    <p>info@toledo3culturas.com</p>
+                </div>
+                 <div>
+                    <img class="admitidas" src="IMG/tarjetas_admitidas1-300x43.png" alt="boquerones">
+                  
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

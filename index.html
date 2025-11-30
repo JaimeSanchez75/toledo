@@ -13,121 +13,141 @@
 <body>
     <header class=" bg-light  border-bottom border-1 border-secondary-alt mx-auto text-center sticky-top">
         <div class="container text-center"> <img class=" img mx-auto " src="IMG/logo-toledo-3-culturas-300.png" alt="toledo"></div>
-        <nav>
-        <div class="btn-group mx-auto text-center btn-group gap-2 ">
-            <button class="btn text-warning">Inicio</button>
-            <button class="btn text-danger">Quiénes somos</button>
-            <div class="dropdown">
-                <button class="btn text-danger dropdown-toggle" data-bs-toggle="dropdown">Nuestras rutas por Toledo</button>
-                <div class="dropdown-menu menu1 p-3 ">
-                    <div class="container">
-                        <div class="row gap-2">
-                        <div class="col border-1 border-bottom">
-                            <button class="btn  text-danger  text-start fw-bold">
-                                Vida en la judería de Toledo
-                            </button>
-                        </div> 
-                        <div class="col border-1 border-bottom">
-                            <button class="btn  text-danger  text-start fw-bold">
-                                Los mejores miradores de Toledo
-                            </button>
-                        </div>
-                        <div class="col border-1 border-bottom">
-                            <button class="btn  text-danger text-start fw-bold">
-                                El mudéjar toledano
-                            </button>
-                        </div>
-                        <div class="col border-1 border-bottom">
-                            <button class="btn  text-danger  text-start fw-bold">
-                                Toledo en guerra
-                            </button>
-                        </div>
-                    </div>
-                    <div class="row gap-2 mt-1">
-                        <div class="col border-1 border-bottom">
-                            <button class="btn  text-danger  text-start fw-bold">
-                                RUTA NOCHE TOLEDANA
-                            </button>
-                        </div>
-                        <div class="col border-1 border-bottom">
-                            <button class="btn  text-danger  text-start fw-bold">
-                                Ruta Pulsera Turística de Toledo
-                            </button>
-                        </div>
-                        <div class="col border-1 border-bottom">
-                            <button class="btn  text-danger  text-start fw-bold">
-                                Ruta la catedral y sus rincones
-                            </button>
-                        </div>
-                        <div class="col border-1 border-bottom">
-                            <button class="btn  text-danger  text-start fw-bold">
-                                Ruta Murallas y elementos defensivos de Toledo
-                            </button>
-                        </div>
-                    </div>
-                    <div class="row gap-2 mt-1">
-                        <div class="col border-1 border-bottom">
-                            <button class="btn  text-danger  text-start fw-bold">
-                                Plazas desconocidas de Toledo
-                            </button>
-                        </div>
-                        <div class="col border-1 border-bottom">
-                            <button class="btn  text-danger  text-start fw-bold">
-                                Ruta mujeres ilustres toledanas
-                            </button>
-                        </div>
-                        <div class="col border-1 border-bottom">
-                            <button class="btn  text-danger  text-start fw-bold">
-                                Ruta Toledo actual
-                            </button>
-                        </div>
-                        <div class="col border-1 border-bottom">
-                            <button class="btn  text-danger  text-start fw-bold">
-                                Ruta Toledo y el agua
-                            </button>
-                        </div>
-                    </div>
-                    <div class="row gap-2 mt-1">
-                        <div class="col border-1 border-bottom">
-                            <button class="btn  text-danger  text-start fw-bold">
-                                Ruta Toledo 3 Culturas
-                            </button>
-                        </div>
-                        <div class="col border-1 border-bottom">
-                            <button class="btn  text-danger  text-start fw-bold">
-                                Toledo ciudad de la magia
-                            </button>
-                        </div>
-                        <div class="col border-1 border-bottom">
-                            <button class="btn  text-danger  text-start fw-bold">
-                                Casas singulares de Toledo
-                            </button>
-                        </div>
-                        <div class="col ">
-                            <!--Al último le faltaba un cacho, lo creo para que no  se descuadre pero vacío.-->
-                        </div>
-                    </div>
-                    </div>
-                    
+            <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">
 
+                <!-- BOTÓN HAMBURGUESA -->
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menuNav"
+                    aria-controls="menuNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!-- MENÚ COMPLETO ORIGINAL (sin modificar nada dentro) -->
+                <div class="collapse navbar-collapse" id="menuNav">
+                    <div class="btn-group mx-auto text-center btn-group gap-2 ">
+                        <button class="btn text-warning">Inicio</button>
+                        <button class="btn text-danger">Quiénes somos</button>
+                        <div class="dropdown">
+                            <button class="btn text-danger dropdown-toggle" data-bs-toggle="dropdown">Nuestras rutas por Toledo</button>
+
+                            <div class="dropdown-menu menu1 p-3">
+                                <div class="container">
+                                    <div class="row gap-2">
+                                        <div class="col border-1 border-bottom">
+                                            <button class="btn text-danger text-start fw-bold">
+                                                Vida en la judería de Toledo
+                                            </button>
+                                        </div>
+                                        <div class="col border-1 border-bottom">
+                                            <button class="btn text-danger text-start fw-bold">
+                                                Los mejores miradores de Toledo
+                                            </button>
+                                        </div>
+                                        <div class="col border-1 border-bottom">
+                                            <button class="btn text-danger text-start fw-bold">
+                                                El mudéjar toledano
+                                            </button>
+                                        </div>
+                                        <div class="col border-1 border-bottom">
+                                            <button class="btn text-danger text-start fw-bold">
+                                                Toledo en guerra
+                                            </button>
+                                        </div>
+                                    </div>
+
+                                    <div class="row gap-2 mt-1">
+                                        <div class="col border-1 border-bottom">
+                                            <button class="btn text-danger text-start fw-bold">
+                                                RUTA NOCHE TOLEDANA
+                                            </button>
+                                        </div>
+                                        <div class="col border-1 border-bottom">
+                                            <button class="btn text-danger text-start fw-bold">
+                                                Ruta Pulsera Turística de Toledo
+                                            </button>
+                                        </div>
+                                        <div class="col border-1 border-bottom">
+                                            <button class="btn text-danger text-start fw-bold">
+                                                Ruta la catedral y sus rincones
+                                            </button>
+                                        </div>
+                                        <div class="col border-1 border-bottom">
+                                            <button class="btn text-danger text-start fw-bold">
+                                                Ruta Murallas y elementos defensivos de Toledo
+                                            </button>
+                                        </div>
+                                    </div>
+
+                                    <div class="row gap-2 mt-1">
+                                        <div class="col border-1 border-bottom">
+                                            <button class="btn text-danger text-start fw-bold">
+                                                Plazas desconocidas de Toledo
+                                            </button>
+                                        </div>
+                                        <div class="col border-1 border-bottom">
+                                            <button class="btn text-danger text-start fw-bold">
+                                                Ruta mujeres ilustres toledanas
+                                            </button>
+                                        </div>
+                                        <div class="col border-1 border-bottom">
+                                            <button class="btn text-danger text-start fw-bold">
+                                                Ruta Toledo actual
+                                            </button>
+                                        </div>
+                                        <div class="col border-1 border-bottom">
+                                            <button class="btn text-danger text-start fw-bold">
+                                                Ruta Toledo y el agua
+                                            </button>
+                                        </div>
+                                    </div>
+
+                                    <div class="row gap-2 mt-1">
+                                        <div class="col border-1 border-bottom">
+                                            <button class="btn text-danger text-start fw-bold">
+                                                Ruta Toledo 3 Culturas
+                                            </button>
+                                        </div>
+                                        <div class="col border-1 border-bottom">
+                                            <button class="btn text-danger text-start fw-bold">
+                                                Toledo ciudad de la magia
+                                            </button>
+                                        </div>
+                                        <div class="col border-1 border-bottom">
+                                            <button class="btn text-danger text-start fw-bold">
+                                                Casas singulares de Toledo
+                                            </button>
+                                        </div>
+                                        <div class="col">
+                                            <!-- vacío para cuadrar -->
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+
+                        <button class="btn text-danger dropdown-toggle" data-bs-toggle="dropdown">Rutas privadas</button>
+                        <div class="dropdown dropdown-menu">
+                            <div class="list-group list-group-vertical list-group-flush">
+                                <button class="list-group-item text-danger">RUTA 3</button>
+                                <button class="list-group-item text-danger">RUTA 4</button>
+                            </div>
+                        </div>
+
+                        <button class="btn text-danger">Regala una ruta</button>
+                        <button class="btn text-danger"><a class="nav-link" href="contacto.html">Contacto</a></button>
+                        <button class="btn text-danger">Blog</button>
+
+                        <button class="btn text-danger">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                class="bi bi-search" viewBox="0 0 16 16">
+                                <path
+                                    d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0" />
+                            </svg>
+                        </button>
+                    </div>
                 </div>
             </div>
-            <button class="btn text-danger dropdown-toggle" data-bs-toggle="dropdown">Rutas privadas</button>
-            <div class="dropdown dropdown-menu">
-                <div class=" list-group list-group-vertical list-group-flush">
-                    <button class="list-group-item  text-danger">RUTA 3</button>
-                            <button class="list-group-item  text-danger">RUTA 4</button>
-                </div>
-            </div>
-            <button class="btn text-danger">Regala una ruta</button>
-            <button class="btn text-danger">Contacto</button>
-            <button class="btn text-danger">Blog</button>
-            <button class="btn text-danger">
-                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
-                <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0"/>
-                </svg>
-            </button>
-        </div>
         </nav>
     </header>
     
@@ -637,10 +657,10 @@
                 </div>
                 <div>
                     <h5><span class="text-oscuro">Turismo responsable</span> </h5>
-                    <img src="IMG/Turismo-Seguro-logo.jpg " alt="patatas fritas">
+                    <img class="responsable" src="IMG/Turismo-Seguro-logo.jpg " alt="patatas fritas">
                 </div>
                 <div>
-                    <img src="IMG/Logo-SICTED-ES-EN-alargado.jpg" alt="cacahuetes">
+                    <img class="compromiso" src="IMG/Logo-SICTED-ES-EN-alargado.jpg" alt="cacahuetes">
                 </div>
                 <div>
                     <h5><span class="text-oscuro">Reserva en:</span> </h5>
@@ -648,7 +668,7 @@
                     <p>info@toledo3culturas.com</p>
                 </div>
                  <div>
-                    <img src="IMG/tarjetas_admitidas1-300x43.png" alt="boquerones">
+                    <img class="admitidas" src="IMG/tarjetas_admitidas1-300x43.png" alt="boquerones">
                   
                 </div>
             </div>
